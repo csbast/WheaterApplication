@@ -1,4 +1,4 @@
-package com.example.wheaterapplication.domain.usecases
+package com.example.wheaterapplication.domain.usecase
 
 import com.example.wheaterapplication.domain.model.Status
 import com.example.wheaterapplication.domain.model.Weather
