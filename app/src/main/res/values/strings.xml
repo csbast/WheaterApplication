@@ -2,4 +2,9 @@
     <string name="app_name">WheaterApplication</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toronto">Toronto</string>
+    <string name="light_rain">Light Rain</string>
+    <string name="l_5">L:5</string>
+    <string name="h_12">H:12</string>
+    <string name="temperatureTv">8</string>
 </resources>
