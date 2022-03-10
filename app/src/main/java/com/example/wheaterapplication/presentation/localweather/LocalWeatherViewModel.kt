@@ -1,4 +1,9 @@
 package com.example.wheaterapplication.presentation.localweather
 
-class LocalWeatherViewModel {
+import androidx.lifecycle.ViewModel
+
+class LocalWeatherViewModel: ViewModel() {
+
+
+
 }

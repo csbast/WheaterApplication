@@ -8,11 +8,13 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.wheaterapplication.R
 import com.example.wheaterapplication.databinding.FragmentLocalWeatherBinding
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LocalWeatherFragment : Fragment() {
 
     private var _binding: FragmentLocalWeatherBinding? = null
     private val binding: FragmentLocalWeatherBinding get() = _binding!!
+    private val viewModel: LocalWeatherViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
