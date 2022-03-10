@@ -26,14 +26,14 @@
             android:layout_height="100dp"
             android:layout_marginTop="64dp"
             android:src="@drawable/cloudy"
-            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintEnd_toStartOf="@+id/temperatureTv"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/locationIdTv"
             android:contentDescription="@string/app_name" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/temperatureTv"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginStart="8dp"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/light_rain"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/temperatureTv"
             app:layout_constraintStart_toStartOf="@+id/weatherIcon"
             app:layout_constraintTop_toBottomOf="@id/weatherIcon"
             tools:layout_editor_absoluteY="227dp" />
@@ -65,21 +65,21 @@
             android:text="@string/l_5"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintEnd_toStartOf="@+id/highTemperatureTv"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="@+id/weatherIcon"
             app:layout_constraintTop_toBottomOf="@+id/weatherDescriptionTv" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/highTemperatureTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/h_12"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/lowTemperatureTv"
-            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="@+id/temperatureTv"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/lowTemperatureTv"
             app:layout_constraintTop_toTopOf="@+id/lowTemperatureTv" />

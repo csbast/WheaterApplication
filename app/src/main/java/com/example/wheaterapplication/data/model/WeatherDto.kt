@@ -7,12 +7,12 @@ data class WeatherDto(
     @SerializedName(value = "title")
     val city: String
 ) {
-    fun toWeater(): Weather = Weather(
-        city = city,
-        weatherState = "",
-        temperature = 0F,
-        description = "",
-        latitude = 0.0,
-        longitude = 0.0
-    )
+//    fun toWeater(): Weather = Weather(
+//        city = city,
+//        weatherState = "",
+//        temperature = 0F,
+//        description = "",
+//        temperatureLow = 0.0,
+//        temperatureHigh = 0.0
+//    )
 }
